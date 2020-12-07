@@ -6,7 +6,7 @@ import message from 'ant-design-vue/es/message'
 import router from '@/router'
 import { ACCESS_TOKEN } from './defalut.config'
 const service = axios.create({
-  baseURL: process.env.NODE_ENV === 'production' ? '/' : '/',
+  baseURL: process.env.NODE_ENV === 'production' ? 'http://localhost:3000' : '',
   timeout: 6000
 })
 

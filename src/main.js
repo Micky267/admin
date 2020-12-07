@@ -3,7 +3,7 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 import service from '@/utils/request.js'
-// import '@/mockDatas/mock.js'
+import '@/mockDatas/mock.js'
 import '@/assets/normalize.css'
 import '@/core/use'
 Vue.config.productionTip = false

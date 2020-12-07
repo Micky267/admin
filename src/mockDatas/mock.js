@@ -1,6 +1,6 @@
 import Mock from 'mockjs'
-Mock.mock('/getUser', 'post', {
-  status: 401,
+Mock.mock('/user/login', 'post', {
+  status: 200,
   message: 'success',
   data: {
     total: 100,

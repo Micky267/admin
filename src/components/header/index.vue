@@ -1,7 +1,6 @@
 <template>
   <div class="c-header">
     头部名称
-    <router-link to="/exam/scoreManage/scoreManageList">成绩列表</router-link>
   </div>
 </template>
 <script>

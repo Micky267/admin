@@ -16,7 +16,6 @@ export default {
   methods: {
     ...mapActions(['login', 'logout']),
     loginHandle() {
-      console.log('this.login', this.login);
       this.login().then(() => {
         Vue.ls.set(ACCESS_TOKEN, 'testtoken')
       })

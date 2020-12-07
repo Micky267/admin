@@ -4,7 +4,7 @@ const saveUrl = {
 }
 const baseUrl = process.env.NODE_ENV === 'production' ? saveUrl['prodUrl'] : saveUrl['devUrl']
 module.exports = {
-  publicPath: process.env.NODE_ENV === 'production' ? '' : '',
+  publicPath: process.env.NODE_ENV === 'production' ? './' : './',
   outputDir: 'dist/static',
   devServer: {
     // development server port 8000
